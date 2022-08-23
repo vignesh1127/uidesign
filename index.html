@@ -1,151 +1,292 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-</head>
-<body>
-    <!-- Header -->
-    <header class="header">
-        <img src="./images/Logo.svg" alt="" class="logo">
-        <ul class="navbar">
-            <li class="list-item">HOME <i class="fa fa-caret-down" aria-hidden="true"></i>&nbsp;</li>
-            <li class="list-item">PROJECT</li>
-            <li class="list-item">ABOUT</li>
-            <li class="list-item">CONTACT</li>
-            <li class="list-item">OTHER PAGE <i class="fa fa-caret-down"></i></li>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Landing Page Complete</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Font Awesome Cdn  -->
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <!--Navigation Section  -->
+      <nav>
+        <div class="brand-image">
+          <img src="./Assets/white-logo.png" alt="logo" />
+        </div>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/">Project</a></li>
+          <li><a href="/">About</a></li>
+          <li><a href="/">Contact</a></li>
+          <li>
+            <a href="/">Other Page <i class="fas fa-caret-down"></i> </a>
+          </li>
+          <li class="menuIcon"><i class="fas fa-bars"></i></li>
         </ul>
-    </header>
-    <!-- Row-1 -->
-    <div class="row-1">
-        <div class="row-1-col-1">
-            <img src="./images/Untitled design (35).png" alt="">
-        </div>
-        <div class="row-1-col-2">
-            <p class="intro">Hello I'm Vignesh</p>
-            <p class="name">Visual Designer</p>
-            <p class="desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque, dolores? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut tempore, assumenda vero a accusamus maiores deserunt beatae officia et molestiae.</p>
-            <button class="btn-aboutme">ABOUT ME</button>
-        </div>
-    </div>
-    <!-- Row-2 -->
-    <div class="row-2">
-        <div class="row-2-halfbox">
-            <div class="row-2-subrow-1">
-                <div class="row-2-subrow-1a sr1-col-1">
-                    <img src="./images/1.svg" alt="" class="svg1">
-                    <p class="type">UI Design</p>
-                    <p class="type-des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, in.</p>
-                    <p class="know-more">KNOW MORE <i class="fa light fa-arrow-right"></i></p>
-                </div>
-                <div class="row-2-subrow-1a sr1-col-2">
-                    <img src="./images/2.svg" alt="" class="svg2">
-                    <p class="type">Product Design</p>
-                    <p class="type-des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, in.</p>
-                    <p class="know-more-active">KNOW MORE <i class="fa light fa-arrow-right"></i></p>
-                </div>
-                <div class="row-2-subrow-1a sr1-col-3">
-                    <img src="./images/3.svg" alt="" class="svg3">
-                    <p class="type">App Design</p>
-                    <p class="type-des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, in.</p>
-                    <p class="know-more">KNOW MORE <i class="fa light fa-arrow-right"></i></p>
-                </div>
+      </nav>
+
+      <div class="mainBody">
+        <!-- Image With Text Section -->
+        <div class="container">
+          <div class="imageWithTextSection">
+            <div class="leftBox">
+              <img
+                src="./Assets/Untitled design (35).png"
+                alt="Image need to Come Here !!!"
+              />
             </div>
-            <div class="row-2-subrow-2">
-                <div class="row-2-subrow-2a sr2co1-1">
-                    <p class="years">12</p>
-                    <p class="exp">Years Experience</p>
+            <div class="rightBox">
+              <div class="mainContent">
+                <p class="hightLight">Hello I'm Author</p>
+                <h2>Visual Designer</h2>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Fugiat explicabo repellendus soluta quam earum quibusdam
+                  quidem neque, dicta harum, aspernatur incidunt, quo animi
+                  expedita quos nobis. Optio incidunt fuga a?
+                </p>
+                <button>About Me</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Experience Section -->
+        <div class="experienceSection">
+          <div class="container">
+            <!-- Experience Top Section -->
+            <div class="experienceTopSection">
+              <div class="boxes">
+                <div class="marginBoxes">
+                 <div class="projectIdon">
+                  <i class="fas fa-envelope-open-text"></i>
+                 </div>
+                  <h2>UI Design</h2>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Est, nisi.
+                  </p>
+                  <span>
+                    <a href="/">Know More <i class="fas fa-arrow-right"></i> </a>
+                  </span>
                 </div>
-                <div class="row-2-subrow-2a sr2col-2">
-                    <div class="clients-box">
-                        <p class="clients-num">60+</p>
-                        <p class="clinets-text">Clients</p>
+              </div>
+              <div class="boxes">
+                <div class="marginBoxes specialProjectBox">
+                  <div class="projectIdon">
+                    <i class="fas fa-envelope-open-text"></i>
+                   </div>
+                  <h2>Product Design</h2>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Est, nisi.
+                  </p>
+                  <span>
+                    <a href="/">Know More <i class="fas fa-arrow-right"></i> </a>
+                  </span>
+                </div>
+              </div>
+              <div class="boxes">
+                <div class="marginBoxes">
+                  <div class="projectIdon">
+                    <i class="fas fa-envelope-open-text"></i>
+                   </div>
+                  <h2>Branding</h2>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Est, nisi.
+                  </p>
+                  <span>
+                    <a href="/" >Know More <i class="fas fa-arrow-right"></i> </a>
+                    </span>
+                </div>
+              </div>
+            </div>
+            <!-- Experince Bottom Section -->
+            <div class="experienceBottomSection">
+              <div class="projectBox">
+                <div class="boxes projectHighlight">
+                  <div class="marginBox experienceSpecial">
+                    <h2>12</h2>
+                    <h4>Years Experience</h4>
+                  </div>
+                </div>
+                <div class="boxes">
+                  <div class="marginBox">
+                    <div class="topBox">
+                      <h2>60+</h2>
+                      <h3>Clients</h3>
                     </div>
-                    <div class="project-box">
-                        <p class="expnum">08</p>
-                        <p class="yearsofexp-txt">Years Experience</p>
+                    <div class="bottomBox">
+                      <h2>122+</h2>
+                      <h3>Completed Projects</h3>
                     </div>
+                  </div>
                 </div>
-                <div class="row-2-subrow-2a sr2col-3">
-                    <div class="exp-box">
-                        <p class="expnum">122+</p>
-                        <p class="yearsofexp-txt">Completed Projects</p>
+                <div class="boxes">
+                  <div class="marginBox">
+                    <div class="topBox">
+                      <h2>08</h2>
+                      <h3>Years Experience</h3>
                     </div>
-                    <div class="achive-box">
-                        <p class="award-num">10</p>
-                        <p class="ach-text">Achivements</p>
+                    <div class="bottomBox">
+                      <h2>10</h2>
+                      <h3>Achievements</h3>
                     </div>
+                  </div>
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Featured Section -->
+        <div class="featuredSection">
+          <div class="container">
+            <!-- Featured Section Head -->
+            <div class="featureHeadSection">
+              <div>
+                <h2>Featured Projects</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+              </div>
+              <button>View All</button>
+            </div>
+
+            <!-- Project Boxes -->
+            <div class="projectSection">
+              <div class="projectBoxes">
+                <div class="projectMarginBox">
+                  <div class="imageBox">
+                    <img
+                      src="./Assets/Screenshot 2022-06-25 131915.jpg"
+                      alt="Project Image"
+                    />
+                  </div>
+                  <div class="contentBox">
+                    <h2>The Vintage</h2>
+                    <span
+                      ><a href="/"
+                        >Know More <i class="fas fa-arrow-right"></i> </a
+                    ></span>
+                  </div>
+                </div>
+              </div>
+              <div class="projectBoxes">
+                <div class="projectMarginBox">
+                  <div class="imageBox">
+                    <img
+                      src="./Assets/Screenshot 2022-06-25 132031.jpg"
+                      alt="Project Image"
+                    />
+                  </div>
+                  <div class="contentBox">
+                    <h2>Foodasa</h2>
+                    <span
+                      ><a href="/"
+                        >Know More <i class="fas fa-arrow-right"></i> </a
+                    ></span>
+                  </div>
+                </div>
+              </div>
+              <div class="projectBoxes">
+                <div class="projectMarginBox">
+                  <div class="imageBox">
+                    <img
+                      src="./Assets/Screenshot 2022-06-25 133016.jpg"
+                      alt="Project Image"
+                    />
+                  </div>
+                  <div class="contentBox">
+                    <h2>Macro Accent</h2>
+                    <span
+                      ><a href="/"
+                        >Know More <i class="fas fa-arrow-right"></i> </a
+                    ></span>
+                  </div>
+                </div>
+              </div>
+              <div class="projectBoxes">
+                <div class="projectMarginBox">
+                  <div class="imageBox">
+                    <img
+                      src="./Assets/Screenshot 2022-06-25 133426.jpg"
+                      alt="Project Image"
+                    />
+                  </div>
+                  <div class="contentBox">
+                    <h2>Mozaik</h2>
+                    <span
+                      ><a href="/"
+                        >Know More <i class="fas fa-arrow-right"></i> </a
+                    ></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Next Project Section -->
+        <div class="container">
+          <div class="nextProjectSection">
+            <div class="leftBox">
+              <h2>Let's work together on your next project</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+                nam placeat esse beatae fugit mollitia.
+              </p>
+            </div>
+            <div class="rightBox">
+              <button>CONTACT</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bottom Navigation -->
+
+        <ul class="bottomNavigation">
+          <li><a href="/">Home</a></li>
+          <li><a href="/">About</a></li>
+          <li><a href="/">Projects</a></li>
+          <li><a href="/">Contact</a></li>
+        </ul>
+
+        <!-- Footer Section -->
+        <footer>
+            <div class="container">
+            <div class="footer-logo">
+              <img src="./Assets/white-logo.png" alt="Footer Logo" />
+            </div>
+            <ul>
+              <li>
+                <a href="/">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li>
+                <a href="/">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+              <li>
+                <a href="/">
+                  <i class="fab fa-youtube"></i>
+                </a>
+              </li>
+            </ul>
+            <div>
+
+            </footer>
             </div>
         </div>
+      </div>
     </div>
-    <!-- Row-3 -->
-    <div class="row-3">
-        <div class="row-3-subrow-1">
-            <div class="r3sr1col1">
-                <h2>FEATURED PROJECTS</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi, laborum.</p>
-            </div>
-            <button class="viweall">VIEW ALL</button>
-        </div>
-        <div class="row-3-subrow-2">
-            <div class="r3sr2 col1">
-                <div class="imgs img1">
-                    <img src="./images/Screenshot 2022-06-25 131915.jpg" alt="">
-                </div>
-                <h2 class="r3sr2-h2">The Vintage</h2>
-                <P class="r3sr2-p">KNOW MORE <i class="fa light fa-arrow-right"></i></P>
-            </div>
-            <div class="r3sr2 col2">
-                <div class="imgs img2">
-                    <img src="./images/Screenshot 2022-06-25 132031.jpg" alt="">
-                </div>
-                <h2 class="r3sr2-h2">Foodasa</h2>
-                <P class="r3sr2-p">KNOW MORE  <i class="fa light fa-arrow-right"></i></P>
-            </div>
-        </div>
-        <div class="row-3-subrow-3">
-            <div class="r3sr3 col1">
-                <div class="imgs img3">
-                    <img src="./images/Screenshot 2022-06-25 133016.jpg" alt="">
-                </div>
-                <h2 class="r3sr2-h2">Marco Accent</h2>
-                <P class="r3sr2-p">KNOW MORE <i class="fa light fa-arrow-right"></i></P>
-            </div>
-            <div class="r3sr3 col2">
-                <div class="imgs img4">
-                    <img src="./images/Screenshot 2022-06-25 133426.jpg" alt="">
-                </div>
-                <h2 class="r3sr2-h2">Foodasa</h2>
-                <P class="r3sr2-p">KNOW MORE <i class="fa light fa-arrow-right"></i></P>
-            </div>
-        </div>
-    </div>
-    <!-- Row-4 -->
-    <div class="row-4">
-            <div class="r4sr1col1">
-                <h2>Let's work together on your next project</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus quam, mollitia veniam fugiat quo perferendis?</p>
-            </div>
-            <div class="r4sr1col2">
-                <button class="contact">Contact</button>
-            </div>
-    </div>
-    <!-- row-5 -->
-    <div class="row-5">
-            <li class="footer-items">HOME</li>
-            <li class="footer-items">ABOUT</li>
-            <li class="footer-items">PRODUCT</li>
-            <li class="footer-items">CONTACT</li>
-    </div>
-    <!-- Footer -->
-    <footer class="footer">
-            <img src="./images/Logo.svg" alt="" class="foot-logo">
-            <img src="./images/social icons.svg" alt="" class="product">
-    </footer>
-</body>
+  </body>
 </html>
